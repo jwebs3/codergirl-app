@@ -4,11 +4,13 @@ import { VideoDashboardComponent } from './video-dashboard/video-dashboard.compo
 import { VideoListComponent } from './video-list/video-list.component';
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { StatFiltersComponent } from './stat-filters/stat-filters.component';
+import { DashboardRoutingModule } from './dashboard-routing.module';
 
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    DashboardRoutingModule
   ],
   declarations: [VideoDashboardComponent, VideoListComponent, VideoPlayerComponent, StatFiltersComponent]
 })
