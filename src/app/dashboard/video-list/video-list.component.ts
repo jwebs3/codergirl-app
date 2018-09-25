@@ -86,7 +86,6 @@ export class VideoListComponent implements OnInit {
       ]
     },
     {
-      // tslint:disable-next-line:no-unused-expression
       'title': 'Live App Updates Without The App Store',
       'author': 'Sani Yusuf',
       'id': 's10wrXA-a7Y',

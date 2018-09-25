@@ -2,7 +2,7 @@
 
 <ul class="videos">
   <li *ngFor="let video of videos">
-    <span><strong>{{ video.title }}</strong>, {{ video.author }}</span>
+    <span><strong>{{ video.title }}</strong>, {{ video.author }}; {{ video.date | date: 'mediumDate' }}</span>
   </li>
 </ul>
 
