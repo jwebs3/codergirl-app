@@ -1,9 +1,9 @@
-<div>
-
-<ul class="videos">
-  <li *ngFor="let video of videos">
-    <span><strong>{{ video.title }}</strong>, {{ video.author }}; {{ video.date | date: 'mediumDate' }}</span>
-  </li>
-</ul>
-
-</div>
+<section class="video-list">
+  <div class="list">
+    <ul class="videos">
+      <li *ngFor="let video of angularVideos">
+       <span><strong>{{ video.title }}</strong>, {{ video.author }};</span>
+     </li>
+    </ul>
+  </div>
+</section>
